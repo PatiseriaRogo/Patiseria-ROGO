@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patiseria ROGO</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff8f0;
+            color: #5e4634;
+        }
+        header {
+            background: linear-gradient(90deg, #d7b98a, #f5deb3);
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-family: 'Georgia', serif;
+            color: #5e4634;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5e4634;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #b88b4a;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .about img {
+            flex: 1;
+            max-width: 500px;
+            border-radius: 15px;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+        .about-text {
+            flex: 2;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #a87439;
+            font-size: 2.5rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .product {
+            background-color: #fff3e0;
+            border: 1px solid #e0c9a6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #5e4634;
+            color: #fff8e7;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Patiseria ROGO</h1>
+    <nav>
+        <a href="#despre">Despre noi</a>
+        <a href="#produse">Produse</a>
+        <a href="#informatii">Informații</a>
+    </nav>
+</header>
+
+<section id="despre">
+    <h2>Despre noi</h2>
+    <div class="about">
+        <img src="InteriorPatiseriaROGO.jpg" alt="Interior patiserie">
+        <div class="about-text">
+            <p>La Patiseria ROGO, fiecare zi începe cu aroma pâinii calde și dulciurile noastre artizanale pregătite cu dragoste. Atmosfera caldă, vitrinele pline de bunătăți și mesele cochete vă așteaptă să vă relaxați și să savurați momente dulci alături de cei dragi.</p>
+            <p>Ne mândrim cu produse proaspete, naturale și tradiționale, pregătite din cele mai bune ingrediente locale.</p>
+        </div>
+    </div>
+</section>
+
+<section id="produse">
+    <h2>Produsele Noastre</h2>
+    <div class="products">
+        <div class="product">
+            <img src="PaineClasica.jpeg" alt="Paine">
+            <h3>Pâine Clasică</h3>
+            <p>Proaspătă, crocantă, perfectă pentru fiecare masă.</p>
+        </div>
+        <div class="product">
+            <img src="PaineDeCasa2.0.jpeg" alt="Paine de casa">
+            <h3>Pâine de Casă</h3>
+            <p>Rețetă tradițională, cu maia naturală și coajă rumenă.</p>
+        </div>
+        <div class="product">
+            <img src="CroissantCuCiocolata.jpeg" alt="Croissant cu ciocolata">
+            <h3>Croissant cu Ciocolată</h3>
+            <p>Făcut manual, umplut cu ciocolată belgiană autentică.</p>
+        </div>
+        <div class="product">
+            <img src="Macarons.jpeg" alt="Macarons">
+            <h3>Macarons</h3>
+            <p>Fragili și delicioși, disponibili în diverse arome.</p>
+        </div>
+        <div class="product">
+            <img src="Briose.jpeg" alt="Briose">
+            <h3>Brioșe Pufoase</h3>
+            <p>Cu afine, ciocolată sau cremă de vanilie.</p>
+        </div>
+        <div class="product">
+            <img src="Covrigi.jpeg" alt="Covrigi">
+            <h3>Covrigi Tradiționali</h3>
+            <p>Simpli sau cu semințe, perfecți pentru gustări rapide.</p>
+        </div>
+        <div class="product">
+            <img src="StrudelCuMere.jpeg" alt="Strudel">
+            <h3>Ștrudel cu Mere</h3>
+            <p>Cu umplutură generoasă de mere și scorțișoară.</p>
+        </div>
+        <div class="product">
+            <img src="Ecler.jpeg" alt="Eclere">
+            <h3>Eclere cu Cremă</h3>
+            <p>Cu vanilie sau ciocolată, delicate și savuroase.</p>
+        </div>
+        <div class="product">
+            <img src="MiniCheesecake.jpeg" alt="Mini Cheesecake">
+            <h3>Mini Cheesecake</h3>
+            <p>Blat crocant, cremă fină de brânză dulce.</p>
+        </div>
+        <div class="product">
+            <img src="TartaDeFructe.jpeg" alt="Tarta de fructe">
+            <h3>Tartă cu Fructe</h3>
+            <p>Decorată cu fructe proaspete și glazură strălucitoare.</p>
+        </div>
+        <div class="product">
+            <img src="Fursecuri.jpeg" alt="Fursecuri">
+            <h3>Fursecuri de Casă</h3>
+            <p>Cu ciocolată, migdale și aromă de vanilie.</p>
+        </div>
+        <div class="product">
+            <img src="PainAuChocolat.jpeg" alt="Pain au Chocolat">
+            <h3>Pain au Chocolat</h3>
+            <p>Foietaj pufos, umplut cu ciocolată bogată.</p>
+        </div>
+    </div>
+</section>
+
+<section id="informatii">
+    <h2>Informații</h2>
+    <p><strong>Orar:</strong> Luni - Sâmbătă: 07:00 - 19:00 | Duminică: 08:00 - 14:00</p>
+    <p><strong>Locație:</strong> Judetul Cluj, Strada Horea, nr. 38 </p>
+    <p><strong>Telefon:</strong> 0745 567 890</p>
+    <p><strong>Email:</strong> contact@patiseriarogo.ro</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Patiseria ROGO. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
